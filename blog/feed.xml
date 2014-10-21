@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ionic Framework</title>
+    <description>The official Ionic Framework blog</description>
+    <link>http://ionicframework.com/blog</link>
+    <atom:link href="http://ionicframework.com/blog/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Tinder for X with Ionic</title>
+        <description>&lt;p&gt;When we released the &lt;a href=&quot;http://github.com/driftyco/ionic-contrib-swipe-cards&quot;&gt;Swipe Cards&lt;/a&gt; ion (our term for Ionic add-ons/widgets), Tinder wasn&amp;#39;t really on our radar. At the time, we were impressed by some of the unique UX elements in the app &lt;a href=&quot;http://jelly.co/&quot;&gt;Jellyfish&lt;/a&gt; and wanted to prove they could be built just as well in Ionic and with the power of HTML5.&lt;/p&gt;
+
+&lt;p&gt;However, the #1 request we&amp;#39;ve had since the release was support for Tinder-style swipe cards. While we can&amp;#39;t say whether or not we have any experience with Tinder, we do love the way Tinder makes it easy to process a large list of items, indicating a positive or negative reaction.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s amazing how broadly applicable the swipe card interface is, and this &amp;quot;Tinder for X&amp;quot; phenomenon was something we wanted to help Ionic developers jump on.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Today we are happy to release the Ionic Tinder-style Cards ion. This ion has support for swiping cards left and right, and also animating the stack of cards underneath
+the current card. Try it out below!&lt;/p&gt;
+
+&lt;div style=&quot;margin-left: auto; margin-right: auto; margin-top: 20px; margin-bottom: 70px; width: 320px&quot;&gt;
+   &lt;p data-height=&quot;568&quot; data-width=&quot;320&quot; data-theme-id=&quot;3572&quot; data-slug-hash=&quot;nxEdH&quot; data-default-tab=&quot;result&quot; data-user=&quot;ionic&quot; class='codepen'&gt;See the Pen &lt;a href='http://codepen.io/ionic/pen/nxEdH/'&gt;Ionic Ion: Tinder Cards&lt;/a&gt; by Ionic (&lt;a href='http://codepen.io/ionic'&gt;@ionic&lt;/a&gt;) on &lt;a href='http://codepen.io'&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+  &lt;script async src=&quot;//codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt; 
+&lt;/div&gt;
+
+&lt;p&gt;This also marks the first usage of our &lt;a href=&quot;https://github.com/driftyco/collide&quot;&gt;collide&lt;/a&gt; animation library for support for physics-style animations like springs and gravity. Notice how if you drag too little and let go, the cards spring back into place!&lt;/p&gt;
+
+&lt;h3&gt;Getting started&lt;/h3&gt;
+
+&lt;p&gt;To get started, use bower to add the ion to your project:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bower install ionic-contrib-tinder-cards
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Take a look at the demo for a full example of how to use this ion: &lt;a href=&quot;https://github.com/driftyco/ionic-contrib-tinder-cards/tree/master/demo&quot;&gt;https://github.com/driftyco/ionic-contrib-tinder-cards/tree/master/demo&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Oct 2014 08:00:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/tinder-for-x/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/tinder-for-x/</guid>
+      </item>
+    
+      <item>
+        <title>Built with Ionic: Songhop</title>
+        <description>&lt;p&gt;&lt;img class=&quot;showcase-image&quot; src=&quot;/img/blog/songhop-header.jpg&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://songhop.fm/&quot;&gt;Songhop&lt;/a&gt;, a super fast way to find new music, streams music that can be quickly flipped through using swipe gestures to interact with the Tinder-esque interface. The team behind &lt;a href=&quot;https://thinkster.io/&quot;&gt;Thinkster.io&lt;/a&gt;: Eric Simons, Albert Pai, and Matt Green, built the app, which is targeted at teens and young adults. &lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;div style=&quot;float: right; margin-right: -160px; margin-bottom: 80px; width: 50%;&quot;&gt;
+  &lt;a href=&quot;http://ionicframework.com/img/blog/songhop-preview-right.jpg&quot;&gt;&lt;img src=&quot;/img/blog/songhop-preview-right.png&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In early 2013, Simons, Pai, and Green wrote what is now the de facto tutorial on AngularJS and have since taught over 500K developers AngularJS. They originally heard about Ionic from the AngularJS community and agreed that it would take significantly more time to learn native languages than to learn how Ionic was set up. They built the entire Songhop app on top of Ionic’s UI elements and plugins: modals, dialogs, navigation controllers, swipe gestures, etc. &lt;/p&gt;
+
+&lt;div style=&quot;float: left; margin-left: -120px; margin-right: 40px; margin-bottom: 70px; width: 32%;&quot;&gt;
+  &lt;a href=&quot;http://ionicframework.com/img/blog/songhop-preview-left.jpg&quot;&gt;&lt;img src=&quot;/img/blog/songhop-preview-left.png&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;“We custom-skinned a lot of components, and it was unbelievably easy to do so,” says Simons. “The framework is absolutely fantastic, and the documentation and resources that Ionic provides is unreal. I’ve honestly never seen such comprehensive docs and resources for a framework or platform. Further, the design decisions that the Ionic team has made are very intuitive and straightforward, which makes it a lot easier to understand how things work.”&lt;/p&gt;
+
+&lt;p&gt;Simons debunks the myth of “native speed apps,” saying, “We have had precisely 0 users (out of thousands) complain about our app being slow, buggy, etc, so the supposed benefit of having ’native speed’ apps just isn’t true anymore.”&lt;/p&gt;
+
+&lt;p&gt;Songhop is available from the &lt;a href=&quot;https://itunes.apple.com/us/app/songhop/id899245239?mt=8&quot;&gt;iOS App Store&lt;/a&gt;, and Simons and his team have plans to teach users to make their own versions of Songhop in an upcoming &lt;a href=&quot;https://thinkster.io/IonicTutorial&quot;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Oct 2014 10:00:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/built-with-ionic-songhop/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/built-with-ionic-songhop/</guid>
+      </item>
+    
+      <item>
+        <title>Dreamforce Hackathon Powerups!</title>
+        <description>&lt;p&gt;&lt;img class=&quot;showcase-image&quot; src=&quot;/img/blog/dreamforce-ionic-header.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;With the &lt;a href=&quot;https://developer.salesforce.com/million-dollar-hackathon&quot;&gt;Dreamforce 2014 Hackathon&lt;/a&gt; right around the corner, we wanted to share some great resources from Ionic, Salesforce, and Heroku, to make sure you don&amp;#39;t waste any time getting to work building your great app and sharing in that wonderful $1M!&lt;/p&gt;
+
+&lt;p&gt;If you&amp;#39;re attending Dreamforce, please visit the Ionic booth in the DevZone. We&amp;#39;ll be debuting Creator and demonstrating new ways to build hybrid apps using Ionic. We look forward to seeing you!&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h3&gt;Heroku Mobile App Template&lt;/h3&gt;
+
+&lt;p&gt;The Heroku team put together a great &lt;a href=&quot;https://engineering.heroku.com/blogs/2014-10-02-heroku-mobile-app-template&quot;&gt;starting template&lt;/a&gt; for building an app with Ionic, Angular, Cordova, and NodeJS on Heroku.&lt;/p&gt;
+
+&lt;p&gt;This is your best bet to get a great app up and running, complete with a backend and frontend. You can even add support for &lt;a href=&quot;https://github.com/heroku/mobile-template1#accessing-forcecom&quot;&gt;force.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Why Ionic?&lt;/h3&gt;
+
+&lt;p&gt;We think Ionic is the best bet for Dreamforce participants to build their apps faster, with fewer headaches. Instead of having to configure and build two complicated native apps, you can build one cross-platform app with web technologies you already know.&lt;/p&gt;
+
+&lt;p&gt;By using Ionic you can get started building the parts of the app that are actually unique. That could be the difference between shipping a great app at the end of the hackathon or being stuck in the weeds!&lt;/p&gt;
+
+&lt;p&gt;Hope to see you there, and good luck!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Oct 2014 10:00:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/dreamforce-hackathon-resources/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/dreamforce-hackathon-resources/</guid>
+      </item>
+    
+      <item>
+        <title>Using Ionic and Heroku</title>
+        <description>&lt;p&gt;&lt;img class=&quot;showcase-image&quot; src=&quot;/img/blog/heroku-ionic-header.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;We&amp;#39;ve noticed a lot of Ionic developers using Heroku side-by-side, either as a backend or to actually host their Ionic app as a mobile website or externally-loaded app.&lt;/p&gt;
+
+&lt;p&gt;To help with that, we&amp;#39;ve built a ready-to-go &lt;a href=&quot;https://github.com/driftyco/ionic-heroku-button&quot;&gt;Ionic app&lt;/a&gt; with Node.js and Express, to either host your Ionic app as a mobile website,
+or to build a Node.js API server.&lt;/p&gt;
+
+&lt;p&gt;To get started, all you need to do is click the Heroku Deploy button below, or see the &lt;a href=&quot;https://github.com/driftyco/ionic-heroku-button&quot;&gt;manual instructions&lt;/a&gt; on the github repo:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://heroku.com/deploy?template=https://github.com/driftyco/ionic-heroku-button&quot;&gt;&lt;img src=&quot;https://www.herokucdn.com/deploy/button.png&quot; alt=&quot;Deploy&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We hope this helps you get up and running with Ionic and a great backend like Heroku. Give it a spin, and let us know what you think!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Oct 2014 08:00:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/heroku-ionic/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/heroku-ionic/</guid>
+      </item>
+    
+      <item>
+        <title>Built with Ionic: Mallzee</title>
+        <description>&lt;p&gt;&lt;img class=&quot;showcase-image&quot; src=&quot;/img/blog/mallzee-header.jpg&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mallzee.com/&quot;&gt;Mallzee&lt;/a&gt;, “the personal stylist in your pocket,” pulls together over two million products from 100 big-name fashion brands to find must-have clothes suited to its users, who are primarily 16-35 year-olds who love fashion but are too busy to spend a lot of time shopping. Mallzee’s unique Style Feeds allow users to get search-specific, receive price drop alerts, and be inspired by top fashion bloggers and personal stylists. &lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Mallzee CTO &lt;a href=&quot;https://twitter.com/wedgybo&quot;&gt;Jamie Sutherland&lt;/a&gt; heard about Ionic when it was being promoted on AngularJS lists. “We were building an app with the same sort of ethos,” says Sutherland. “We wanted to create reusable components, so we could make our next apps quicker. When we heard about Ionic, we were keen to take a look, and we weren’t disappointed!” &lt;/p&gt;
+
+&lt;div style=&quot;float: right; margin-right: -160px; width: 50%;&quot;&gt;
+  &lt;a href=&quot;http://ionicframework.com/img/blog/mallzee-preview-right.jpg&quot;&gt;&lt;img src=&quot;/img/blog/mallzee-preview-right.jpg&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;However, the company had already published the first version of the Mallzee app. In May 2014, the team decided to replace their existing UI work with Ionic, which was approaching a 1.0.0 version. &lt;/p&gt;
+
+&lt;p&gt;“We figured thousands of eyes on the code is better than a few, so it would pay off in the long run,” says Sutherland. “So far, we’ve been right.”&lt;/p&gt;
+
+&lt;p&gt;Sutherland says Ionic helped streamline app development by reducing the amount of work needed to make a high-quality hybrid application. “It takes away the pain of having to create a lot of the standard components people expect and know how to use in their native counterparts,” he says. “Because we’d already created similar components, we were able to quickly switch out old for new in the space of a few weeks! In the end, we’ve used almost the entire framework. We even have a few components waiting to give back!”&lt;/p&gt;
+
+&lt;div style=&quot;float: left; margin-left: -120px; margin-right: 40px; width: 32%;&quot;&gt;
+  &lt;a href=&quot;http://ionicframework.com/img/blog/mallzee-preview-left.jpg&quot;&gt;&lt;img src=&quot;/img/blog/mallzee-preview-left.jpg&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Sutherland adds, “Being invested in AngularJS, I love the simplicity of fitting together components to create great-looking apps in no time at all.”&lt;/p&gt;
+
+&lt;p&gt;Because the Mallzee team used Ionic to create a whole interface purely from markup, the marketing group is able to edit sections of the app without help from the development team. “They control the inspiration section of the app, without having to have an in-depth knowledge of coding,” says Sutherland. “Basic HTML skills are enough for them to produce great results.”&lt;/p&gt;
+
+&lt;p&gt;Mallzee originally chose hybrid over native because they were all web developers. “We’d looked at great PhoneGap apps (Twist, Untappd) and figured we could do something like that,” says Sutherland. “We’d no idea how hard it would be, especially when you are rolling most of the components yourself, as all the frameworks at the time (jQuery Mobile, Sencha Touch) were too heavy. Although we only support iPhone at the moment, another factor in our decision was cross-platform support. We focused on the iOS platform first, to get the user experience nailed there before covering others. It should be a simple process, and now we’re ready to tackle that and roll out Android before the end of the year.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Download Mallzee from Apple&amp;#39;s &lt;a href=&quot;https://itunes.apple.com/gb/app/mallzee/id681106862&quot;&gt;iOS App Store&lt;/a&gt;!&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Oct 2014 11:00:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/built-with-ionic-mallzee/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/built-with-ionic-mallzee/</guid>
+      </item>
+    
+      <item>
+        <title>Refreshing our Pull-to-Refresh</title>
+        <description>&lt;p&gt;For a while now, we’ve wanted to update Pull To Refresh in Ionic. It worked, but it wasn’t exciting, and since it’s a goal of ours at Ionic to make every component as enjoyable to use as it can be, we decided it was time for a change. Here&amp;#39;s some of the lessons in semiotics and UX that we learned...&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Wanting to make it fun and playful, we started by binding the rotation of the arrow icon to how far you pull down the view. It was fun. &lt;a href=&quot;https://twitter.com/benjsperry&quot;&gt;Ben&lt;/a&gt; and I spent a good ten minutes each just playing with pulling the view down. We quickly realized a problem, though: While it was fun, it was not practical. &lt;/p&gt;
+
+&lt;p&gt;Most users don’t sit and play with the pull to refresh animation on their phones; they “use” their phones. They “use” pull to refresh to get the information they want, and they want it now. That means they swipe up quickly and expect the pull to refresh to trigger and update. They swipe so fast, the animation doesn’t even happen.&lt;/p&gt;
+
+&lt;div style=&quot;float: right; margin-right: -160px&quot;&gt;
+  
+ &lt;div class=&quot;phone-case&quot;&gt;
+  &lt;p data-height=&quot;568&quot; data-theme-id=&quot;3572&quot; data-slug-hash=&quot;nqIrC&quot; data-default-tab=&quot;result&quot; class='codepen'&gt;See the Pen by &lt;a href='http://codepen.io/ionic/pen/nqIrC'&gt;Ionic&lt;/a&gt; (&lt;a href='http://codepen.io/ionic'&gt;@ionic&lt;/a&gt;) on &lt;a href='http://codepen.io'&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+  &lt;script async src=&quot;//codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+ &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;So we went back to a regular fixed-time animation, updated the default icons to be something more visually appealing, and moved on. &lt;/p&gt;
+
+&lt;p&gt;The next thing we noticed was that most API calls are pretty fast, perhaps too fast. Our refresher would return to the home position as soon as it was told the information requested was received. This meant that as soon as you let go of the refresher when swiping up, it wouldn’t spin; instead, it would return immediately to the home position. We have an internal Hacker News app we were using to test this (more info on that soon). The front page of Hacker News doesn’t update every five seconds, so most of the time, a refresh does nothing. We were left unsure if an update actually fired. &lt;/p&gt;
+
+&lt;p&gt;Setting up console logs allows developers to make sure the refresh actually happened. Users don’t get the reassurance of a console log, though, so your UI must be reassuring enough on its own.&lt;/p&gt;
+
+&lt;p&gt;We decided to force 400ms of the refreshing spinner animation. If the data came back sooner, we’d still apply it immediately, but we’d show the spinner for a bit, so the user would know a refresh had happened. To a developer, this may feel misleading. The refresh is already complete, so why are we still showing the animation?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Users don’t care about what’s going on under the hood.&lt;/strong&gt; A big part of UX is keeping a user in familiar territory and reassuring him or her that the app is working properly. The user’s confidence that the refresh happened trumps its technical representation. In our updated pull to refresh, if an update takes longer than 400ms, it will continue to spin until the data is available. &lt;/p&gt;
+
+&lt;p&gt;I think you’ll agree, the end result is a pull to refresh that’s enjoyable to use and communicates its function clearly. I really enjoyed going into this level of critical thinking on just one component. It’s a standard to which I’m proud to say we hold ourselves with every new Ionic feature. &lt;/p&gt;
+
+&lt;p&gt;Check out what we did &lt;a href=&quot;https://github.com/driftyco/ionic/commit/db27fb116cd3139b271cf9d20c462fb3746f25df&quot;&gt;under the hood on GitHub&lt;/a&gt;, or take a look at how to add it into your app from our &lt;a href=&quot;http://ionicframework.com/docs/api/directive/ionRefresher/&quot;&gt;Docs&lt;/a&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 25 Sep 2014 03:00:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/refreshing-pull-to-refresh/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/refreshing-pull-to-refresh/</guid>
+      </item>
+    
+      <item>
+        <title>Cookie-based Authentication in AngularJS</title>
+        <description>&lt;p&gt;Single Page Apps are ruling the world and AngularJS is leading the charge. But many of the lessons we learned in the Web 2.0 era no longer apply, and few are as drastically different as authentication.&lt;/p&gt;
+
+&lt;p&gt;Depending on where you build and release your AngularJS app, there are different ways to handle authentication and I hope this post clears some of that up.&lt;/p&gt;
+
+&lt;h3&gt;CORS&lt;/h3&gt;
+
+&lt;p&gt;CORS is an oft-misunderstood feature of new browsers that is configured by a remote server. CORS stands for Cross-Origin-Resource-Sharing, and was designed to make it possible to access services outside of the current origin (or domain) of the current page.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Like many browser features, CORS works because we all agree that it works. So all major browsers like Chrome, Firefox, and IE support and enforce it. By using these browsers, you benefit from the security of CORS.&lt;/p&gt;
+
+&lt;p&gt;That means certain browsers do not enforce it, so it is not relevant there. One large example is a native Web View for things like Cordova and Phonegap (and hence, Ionic apps). However, these tools often have configuration options for whitelisting domains so you can add some security that way.&lt;/p&gt;
+
+&lt;h3&gt;Configuring CORS on the Server&lt;/h3&gt;
+
+&lt;p&gt;The way CORS works is the server decides which domains it will accept as clients. This means an open API like Twitter might allow any clients, or a closed API might decide to only allow access from the domain of the running client app.&lt;/p&gt;
+
+&lt;p&gt;I won&amp;#39;t get into the details of configuring CORS on the server side, but it&amp;#39;s really just setting some headers. Here&amp;#39;s how you might do it &lt;a href=&quot;https://gist.github.com/michiel/1064640&quot;&gt;in nginx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There is one header in particular you must have if you want to do session based authentication in a single page app: &lt;code&gt;Access-Control-Allow-Credentials: true&lt;/code&gt; which we show next.&lt;/p&gt;
+
+&lt;h3&gt;AngularJS Auth&lt;/h3&gt;
+
+&lt;p&gt;If you use the standard &lt;code&gt;$http&lt;/code&gt; service to access remote APIs, it will Just Work as long as the server is configured to allow requests from your domain and you don&amp;#39;t need to store cookies.&lt;/p&gt;
+
+&lt;p&gt;But for many applications, we also need to set and store cookie information for things like logins. By default this is not allowed in most browsers and you&amp;#39;ll be smashing your head wondering why the cookie information isn&amp;#39;t being saved!&lt;/p&gt;
+
+&lt;p&gt;Enter: &lt;code&gt;withCredentials&lt;/code&gt;. &lt;code&gt;withCredentials&lt;/code&gt; is a flag set on a low-level &lt;code&gt;XMLHttpRequest&lt;/code&gt; (AJAX) object, but in Angular we can configure our &lt;code&gt;$http&lt;/code&gt; requests to set this flag for everything by doing:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;javascript language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;angular&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;myApp&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;$httpProvider&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$httpProvider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;$httpProvider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;defaults&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;withCredentials&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}])&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;CSRF&lt;/h3&gt;
+
+&lt;p&gt;Many servers use CSRF as a security feature and you can certainly keep this feature in a hybrid app if you wish. CSRF is a way to ensure the client making a request is the same one that the server expects to make the request. This keeps someone from sniffing your cookie session data and making requests pretending to be you (and changing your password, for example).&lt;/p&gt;
+
+&lt;p&gt;To make for CSRF, we can tell &lt;code&gt;$http&lt;/code&gt; to set the correct header for CSRF (might depend on your server framework, this one is for Django) using the specific cookie name:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;javascript language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;angular&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;myApp&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;ngCookies&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;$http&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;$cookies&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$cookies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;$http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;defaults&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;X-CSRFToken&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$cookies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;csrftoken&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}]);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;While I&amp;#39;ve found this to work pretty well, if the CSRF token changes mid-session (for example if a new user signs up) the token won&amp;#39;t update. To fix this, we can use an HTTP Interceptor to always set the correct CSRF header value before each request:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;javascript language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;angular&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;myApp&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;myCSRF&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,[&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;headerName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;X-CSRFToken&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cookieName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;csrftoken&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;allowedMethods&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;GET&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setHeaderName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;headerName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setCookieName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;cookieName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setAllowedMethods&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;allowedMethods&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$get&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;$cookies&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$cookies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;s1&quot;&gt;&amp;#39;request&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;allowedMethods&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;indexOf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;c1&quot;&gt;// do something on success&lt;/span&gt;
+          &lt;span class=&quot;nx&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;headerName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$cookies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cookieName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}]).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$httpProvider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;$httpProvider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;interceptors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;myCSRF&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This will set the CSRF request header to the current value of the CSRF cookie for any request type not in &lt;code&gt;allowedMethods&lt;/code&gt;. &lt;/p&gt;
+
+&lt;h3&gt;Credentials and CORS&lt;/h3&gt;
+
+&lt;p&gt;One thing to note when using &lt;code&gt;withCredentials: true&lt;/code&gt; in your app and configuring the server for CORS is that you may not have your &lt;code&gt;Access-Control-Allow-Origin&lt;/code&gt; header set to &lt;code&gt;&amp;#39;*&amp;#39;&lt;/code&gt;. It must be configured to a few select origins. If you absolutely must have this set to &lt;code&gt;*&lt;/code&gt;, then I suggest doing something beyond cookie based authentication, such as token-based authentication.&lt;/p&gt;
+
+&lt;h3&gt;Token Auth&lt;/h3&gt;
+
+&lt;p&gt;The methods described above work for cookie-based authentication that is common in most server-side setups. However, some APIs expect HTTP Basic Authentication or use a token-based system.&lt;/p&gt;
+
+&lt;p&gt;While the correct use of CORS will avoid cross-domain pitfalls of cookie-based authentication, those methods may be a better fit for your use case. In that case, take a look at &lt;a href=&quot;https://auth0.com/blog/2014/01/07/angularjs-authentication-with-cookies-vs-token/&quot;&gt;this great post&lt;/a&gt; on token authentication with AngularJS.&lt;/p&gt;
+
+&lt;p&gt;We may revisit this topic in the future to add our thoughts on Token-based authentication.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Sep 2014 08:00:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/angularjs-authentication/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/angularjs-authentication/</guid>
+      </item>
+    
+      <item>
+        <title>Split View Lands in Ionic</title>
+        <description>&lt;p&gt;&lt;img class=&quot;showcase-image&quot; src=&quot;/img/blog/splitpane-header.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Any app that wants to stand out among the billions of apps out there needs to be able to adapt to different screen sizes, a fact with which all developers have to deal. Since Cordova is a web-view, devs can rely on responsive web design (RWD) to deal with this. However, some things need a little extra attention, like side-menus, since its interaction can vary depending on the screen size.&lt;/p&gt;
+
+&lt;p&gt;We are very happy to announce that Split View support has finally landed in Ionic!&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;A frequently requested feature, Split View allows developers to expose a side-menu when the viewport is a certain width. To do this, all that needs to be added is the &lt;code&gt;expose-aside-when&lt;/code&gt; attribute directive to the &lt;code&gt;ion-side-menu&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ion&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;-side-menus&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Center content --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;ion&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;-side-menu-content&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt;/ion-side-menu-content&amp;gt;
+
+  &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Left menu --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;ion&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;-side-menu&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;expose-aside-when=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;large&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt;/ion-side-menu&amp;gt;
+&lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt;/ion-side-menus&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;As you can see, it is &lt;em&gt;extremely difficult&lt;/em&gt; to do d(-_^).  &lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;expose-aside-when=&amp;quot;large&amp;quot;&lt;/code&gt; attribute will keep the side menu hidden when the viewport&amp;#39;s width is less than 768px, but when the viewport&amp;#39;s width is 768px or greater, the menu will always be shown and can no longer be opened or closed, like it could when it was hidden for smaller viewports.&lt;/p&gt;
+
+&lt;p&gt;Using “large” as the attribute&amp;#39;s value is simply an alias to &lt;code&gt;(min-width:768px)&lt;/code&gt;, since it is the most common use-case. However, for added flexibility, any valid media query could be added as the value, such as &lt;code&gt;(min-width:600px)&lt;/code&gt;, or even multiple queries, such as &lt;code&gt;(min-width:750px) and (max-width:1200px)&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ion&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;-side-menu&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;expose-aside-when=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;(min-width:750px) and (max-width:1200px)&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;With this addition to Ionic, apps can now adapt much better when going between phones and tablets of varying sizes. Check out the &lt;a href=&quot;http://codepen.io/ionic/pen/cDbFg&quot;&gt;codepen demo&lt;/a&gt; to see Splitview in action, and check out the &lt;a href=&quot;http://ionicframework.com/docs/api/directive/exposeAsideWhen/&quot;&gt;docs&lt;/a&gt; for more information.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 11 Sep 2014 12:30:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/splitview-has-landed/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/splitview-has-landed/</guid>
+      </item>
+    
+      <item>
+        <title>HTTPS for the Ionic and Ionicons CDN</title>
+        <description>&lt;p&gt;Ionicons have become incredibly popular, so much so that they actually account for a majority of our content delivery network (CDN) traffic. But what if you wanted to load the icons as part of a checkout page? For security reasons, that checkout page is being loaded over HTTPS, but Ionicons are still on HTTP. You would either have to host the icons yourself, or give up on using these great icons (if we do say so ourselves) on your page.&lt;/p&gt;
+
+&lt;p&gt;With this in mind and with help from the  awesome people at &lt;a href=&quot;http://www.maxcdn.com/&quot;&gt;MaxCDN&lt;/a&gt;, we are thrilled to announce that our CDN can now be loaded over HTTPS!&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Having our CDN server over HTTPS is a huge benefit these days. With many sites using HTTPS over regular HTTP, Codepen being one of them, Ionic’s CSS and JS were getting blocked. You more than likely experienced this in the forums, where demos appeared to be broken. Now that is a thing of the past!&lt;/p&gt;
+
+&lt;p&gt;With both &lt;code&gt;http&lt;/code&gt; and &lt;code&gt;https&lt;/code&gt; supported, we also recommend using &lt;a href=&quot;http://www.paulirish.com/2010/the-protocol-relative-url/&quot;&gt;Protocol-relative URLs&lt;/a&gt; to ensure &lt;code&gt;https&lt;/code&gt; is only used when needed. Now that secure checkout page from earlier can be adorned with as many Ionicons as needed and will load without any issues. Oh, happy day!&lt;/p&gt;
+
+&lt;p&gt;One thing to keep in mind: It’s best to use your own local copies of the framework&amp;#39;s files when building a Cordova/Phonegap hybrid app. These CDN files are provided for archived versions, online tutorials, demos, examples, etc.&lt;/p&gt;
+
+&lt;h3&gt;Parting Words&lt;/h3&gt;
+
+&lt;p&gt;Ionic’s secure CDN is now live, and we encourage all users to reference our files using the protocol relative URLs. This includes our CSS, JS, and Ionicons! Again, we’d also like to thank the good people of &lt;a href=&quot;http://www.maxcdn.com/&quot;&gt;MaxCDN&lt;/a&gt; for providing a lighting-fast CDN for the &lt;a href=&quot;http://www.maxcdn.com/open-source/&quot;&gt;open source community&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ionic CDN Links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css&quot;&gt;Ionicons v1.5.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://code.ionicframework.com/1.0.0-beta.12/css/ionic.min.css&quot;&gt;Ionic CSS v1.0.0-beta.12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://code.ionicframework.com/1.0.0-beta.12/js/ionic.bundle.min.js&quot;&gt;Ionic JS v1.0.0-beta.12&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 11 Sep 2014 10:00:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/https-for-ionic-cdn/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/https-for-ionic-cdn/</guid>
+      </item>
+    
+      <item>
+        <title>Built with Ionic: Sworkit</title>
+        <description>&lt;p&gt;&lt;img class=&quot;showcase-image&quot; src=&quot;/img/blog/sworkit-header.jpg&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Developer &lt;a href=&quot;https://twitter.com/heryandotus&quot;&gt;Ryan Hanna&lt;/a&gt; built &lt;a href=&quot;http://sworkit.com/&quot;&gt;Sworkit&lt;/a&gt;, now owned by &lt;a href=&quot;http://www.nexercise.com/&quot;&gt;Nexercise&lt;/a&gt;, with only five months of coding experience. “I like the the mentality of code what you know, and learn what you don’t along the way,” says Hanna.  &lt;/p&gt;
+
+&lt;p&gt;Sworkit is a fitness app that provides bodyweight workouts that can be done anywhere, for users at all levels of fitness experience. &lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;“It can even be used to create custom workouts that aid in injury recovery or meet other specific needs,” Hanna adds. “Sworkit thrives on eliminating all excuses for not working out, requiring no gym membership, subscription plan, or equipment, and only needing a minimal amount of space.” &lt;/p&gt;
+
+&lt;div style=&quot;float: right; margin-right: -160px; width: 50%;&quot;&gt;
+  &lt;a href=&quot;http://ionicframework.com/img/blog/sworkit-preview-right.png&quot;&gt;&lt;img src=&quot;/img/blog/sworkit-preview-right.png&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Users choose a strength building, cardio, stretching, or yoga workout and enter the amount of time they have available to work out. Sworkit provides interval timing and sequencing, along with rewarding users and tracking their progress.&lt;/p&gt;
+
+&lt;p&gt;Originally developed using jQuery Mobile, Sworkit was in need of an update when the development team learned about Ionic in blog posts by &lt;a href=&quot;https://twitter.com/devgirlfl&quot;&gt;Holly Schinsky&lt;/a&gt; of Adobe and &lt;a href=&quot;https://twitter.com/ccoenraets&quot;&gt;Christophe Coenraets&lt;/a&gt; of Salesforce.&lt;/p&gt;
+
+&lt;p&gt;“Ionic levels the playing field for hybrid developers by offering components and templates on par with those to which native developers have access,” says Hanna. “We were able to jump directly into creating beautiful views and focus on the app’s actual logic. Ionic takes you past the complications of building apps for hundreds of devices and is focused on cross-browser support and performance optimization from the beginning. This allows you to focus on creating the app you want and to move forward quickly.”&lt;/p&gt;
+
+&lt;p&gt;The team used Ionic’s side menus, navigation, list views, list reorder, list option buttons, popups, action sheet, modals, slide box, form inputs, gesture, loading, platform, and grids.&lt;/p&gt;
+
+&lt;div style=&quot;float: left; margin-left: -120px; margin-right: 40px; width: 32%;&quot;&gt;
+  &lt;a href=&quot;http://ionicframework.com/img/blog/sworkit-preview-left.png&quot;&gt;&lt;img src=&quot;/img/blog/sworkit-preview-left.png&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;“The complete redesign and refactoring of the apps was completed in just ten weeks,” says Hanna. “Most importantly, the response from our users has been amazing, and they love the new design and layout and are even more engaged than before.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Since switching to the Ionic Framework, Apple contacted Hanna and Sworkit Pro was featured in the Health and Fitness section of the App Store. The Sworkit and Sworkit Pro apps have been downloaded over two million times from the iOS App Store and Google Play.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“Hybrid development allowed a single developer to create apps for iOS and Android on the same exact schedule,” says Hanna. “If there had been a decision to only focus on one native platform and release just that one, a massive part of the market would be left out. There would be no way real way to grow that audience and for users to share the app with all of their friends and family.”&lt;/p&gt;
+
+&lt;p&gt;“Ionic for us is the framework that has finally leveled the playing field with native development,” Hanna adds. “Having access to a similar set of components that native developers are accustomed to and having a focus on beautiful, optimized elements is incredible.” &lt;/p&gt;
+
+&lt;p&gt;Sworkit is a featured app in the &lt;a href=&quot;https://itunes.apple.com/us/app/sworkit-daily-circuit-training/id527219710?mt=8&amp;amp;ign-mpt=uo%3D4&quot;&gt;iOS App Store&lt;/a&gt;, and can also be found in the &lt;a href=&quot;https://play.google.com/store/apps/details?id=sworkitapp.sworkit.com&quot;&gt;Google Play&lt;/a&gt; and &lt;a href=&quot;http://www.amazon.com/gp/product/B00GWYAC4W/ref=Sworkit-Circuit-Training-Workouts&quot;&gt;Amazon Store&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Sep 2014 12:30:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/built-with-ionic-sworkit/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/built-with-ionic-sworkit/</guid>
+      </item>
+    
+      <item>
+        <title>Live Reload All the Things: Ionic CLI's Latest Features</title>
+        <description>&lt;p&gt;&lt;img class=&quot;showcase-image&quot; src=&quot;/img/blog/ionic-cli-v1_2_0.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;We are happy to announce that the Ionic CLI has been updated with some great new features.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h3&gt;LiveReload All The Things&lt;/h3&gt;
+
+&lt;p&gt;One of the best features of the CLI is the LiveReload server that gets started when you run &lt;code&gt;ionic serve&lt;/code&gt;. This allows you to develop your app in the browser and have it update instantly when changes are made to any development files.&lt;/p&gt;
+
+&lt;p&gt;With this in mind, we added the ability to have LiveReload run when you’re testing on a device! The LiveReload functionality is similar to Ionic Serve, but instead of developing and debugging an app using a standard browser, the compiled hybrid app itself is watching for any changes to its files and reloading the app when needed. This reduces the requirement to constantly rebuild the app for small changes. Do note, however, that LiveReload only works for devices that support &lt;a href=&quot;http://caniuse.com/websockets&quot;&gt;web sockets&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Not only can you run LiveReload, you can also access console logs from the device and server logs showing which files the device is requesting. This lets you build your app quickly in the browser, then debug it on an actual device or emulator (&lt;a href=&quot;http://www.genymotion.com/&quot;&gt;Genymotion&lt;/a&gt; works, too). How do you start it? You can pass a few flags, in any combination, in your run/emulate commands:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ionic  &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;run|emulate&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &amp;lt;platform&amp;gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;options&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+
+    &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;--livereload|-l&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; .... Live Reload app dev files from the device
+    &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;--consolelogs|-c&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; ... Print app console logs to Ionic CLI
+    &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;--serverlogs|-s&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; .... Print dev server logs to Ionic CLI
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ionic App LiveReload Command Examples:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ionic emulate ios --livereload --consolelogs --serverlogs
+
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ionic run android -l -c -s
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Codepen Starter Templates&lt;/h3&gt;
+
+&lt;p&gt;Ionic loves Codepen! In fact, we really love Codepen; just check out our &lt;a href=&quot;http://codepen.io/ionic/public-list/&quot;&gt;Codepen page&lt;/a&gt;. It’s the perfect place to share code and play with ideas and concepts in a sandbox. It also provides an ideal environment in which to demonstrate issues that you may find during your development. Until now, taking Codepen demos and moving them into an Ionic project was a bit of a mess. You’d start a new project, copy all the assets from Codepen into their appropriate locations, remove the inline template, go back and make sure you caught that lone semicolon you forgot the first time…&lt;/p&gt;
+
+&lt;p&gt;Thankfully, those days are gone! Now, you have the ability to start a project based on a Codepen demo.  The new feature is dead simple; all you need is a Codepen URL, and you&amp;#39;re good to go.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ionic start myapp http://codepen.io/ionic/pen/hqcju
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The command will run its normal process, scaffolding out the project and installing the correct plugins, but it will also include the code from the Codepen. All the JavaScript and CSS will be parsed into their own respective files, and any inline templates will be made into html template files and saved into the &lt;code&gt;templates&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;h3&gt;Update to the latest Ionic CLI&lt;/h3&gt;
+
+&lt;p&gt;With these new features, you can go from testing in Codepen to testing on a device! Update your CLI to get these new features: &lt;code&gt;npm update -g ionic&lt;/code&gt;, and be sure to check out the &lt;a href=&quot;https://github.com/driftyco/ionic-cli&quot;&gt;CLI’s documentation&lt;/a&gt;. In addition to the documentation, the &lt;code&gt;ionic --help&lt;/code&gt; command has been improved to include even more information about each task and its available options.&lt;/p&gt;
+
+&lt;p&gt;We’re always looking to improve the CLI to help make developing Ionic apps even easier, so please feel free to submit any ideas and feature requests to our &lt;a href=&quot;https://github.com/driftyco/ionic-cli/issues&quot;&gt;Ionic CLI repo&lt;/a&gt;. Thanks!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 03 Sep 2014 12:30:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/live-reload-all-things-ionic-cli/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/live-reload-all-things-ionic-cli/</guid>
+      </item>
+    
+      <item>
+        <title>Built with Ionic: Coride</title>
+        <description>&lt;p&gt;&lt;img class=&quot;showcase-image&quot; src=&quot;/img/blog/coride-header.jpg&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Say you’re going to Chicago for the weekend but would love company on the drive and a little bit of gas money. &lt;a href=&quot;https://coride.co/&quot;&gt;Coride.co&lt;/a&gt;, founded by Adam Braus and based in Madison, WI, is an app that does just that. It helps individual drivers sell tickets for seats in their cars on road trips. &lt;/p&gt;
+
+&lt;p&gt;“In a few taps, you can find passengers to ride along,” says Braus. “They help you cover costs and add a sense of adventure to your ride. Our target audience is friendly 18-35 year olds.”&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ionicframework.com/img/blog/coride-app-preview.png&quot;&gt;&lt;img class=&quot;body-image&quot; src=&quot;/img/blog/coride-app-preview.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Braus, who was one of the first ten beta users of the Ionic Framework, says Ionic helped his development team with basic lists and item display, as well as great navigation and animations. “It gave us a framework, a place to start, and that has been its biggest contribution,” says Braus. “The power of &lt;a href=&quot;http://angularjs.org&quot;&gt;AngularJS&lt;/a&gt;, wedded to the beauty of &lt;a href=&quot;http://drifty.com&quot;&gt;Drifty&lt;/a&gt;, Ionic’s parent company, is unique.”&lt;/p&gt;
+
+&lt;p&gt;Braus cites several reasons for building an HTML5 app. “HTML5 gives my team a huge advantage, in terms of speed and talent acquisition,” says Braus. “Getting everyone on JS makes the team flexible and keeps the dev team flat.”&lt;/p&gt;
+
+&lt;p&gt;Coride.co is build for &lt;a href=&quot;http://itunes.com/apps/coride&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=co.coride.app&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;. The team is growing fast and looking for AngularJS and Nodejs developers!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Sep 2014 02:30:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/built-with-ionic-coride/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/built-with-ionic-coride/</guid>
+      </item>
+    
+      <item>
+        <title>Adding Auth to your Ionic app in 5 mins with Auth0</title>
+        <description>&lt;p&gt;&lt;em&gt;This is a guest post by Martin Gontovnikas (aka &lt;a href=&quot;http://twitter.com/mgonto&quot;&gt;mgonto&lt;/a&gt;), the lead Developer Advocate at Auth0. Martin is passionate about tech and contributes to open source with &lt;a href=&quot;https://github.com/mgonto/restangular&quot;&gt;Restangular&lt;/a&gt; (the famous REST client for AngularJS), AngularWizard, Angularytics, and FactoryPal. He also blogs at &lt;a href=&quot;http://gon.to/blog/&quot;&gt;http://gon.to/blog/&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;TL;DR&lt;/em&gt;: Get the &lt;a href=&quot;https://github.com/auth0/auth0-ionic/tree/master/examples/refresh-token-sample&quot;&gt;sample project using Ionic and Auth0 from Github&lt;/a&gt;. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The smartphone has changed the way everyone interacts with different services and applications. Facebook reports having more usage from mobile phones compared to desktop computers. The industry calls this trend  &lt;em&gt;Mobile First&lt;/em&gt;.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Mobile First implies that companies first develop a mobile experience of their services. Often this means implementing the application in lots of different languages and platforms: Objective C for iOS, Java for Android, C# for Windows Phone, etc.&lt;/p&gt;
+
+&lt;p&gt;This is where Ionic and Cordova help you. Thanks to Cordova, you just code the application once in HTML and JS, and it works in all the different platforms. Thanks to Ionic, your code is easily reusable and maintainable. You&amp;#39;re basically creating a Single Page App (SPA) that works on any device. It seems it could be the holy grail of mobile development.&lt;/p&gt;
+
+&lt;p&gt;However, once you start coding, you&amp;#39;ll see that there are some obstacles to overcome. If you search for &lt;em&gt;&amp;quot;Authentication with AngularJS/Ionic&amp;quot;&lt;/em&gt; in Stackoverflow, you&amp;#39;ll see that &lt;a href=&quot;http://stackoverflow.com/search?q=angularjs+authentication&quot;&gt;there are more than 900 questions&lt;/a&gt; about it.&lt;/p&gt;
+
+&lt;p&gt;How do you keep users logged in forever? Should you use Cookies or Tokens? How to login users with social providers such as Facebook, Twitter, Linkedin, etc.? What if you need to authenticate users in enterprise directories such as Active Directory or LDAP? *&lt;/p&gt;
+
+&lt;p&gt;These are some of the challenges that we solve at &lt;a href=&quot;http://auth0.com/&quot;&gt;Auth0&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;In this post, you&amp;#39;ll learn how to easily add any authentication to your Ionic app using Auth0. As an introduction to this post, you can read about why it&amp;#39;s better to use tokens in your AngularJS SPA in &lt;a href=&quot;http://blog.auth0.com/2014/01/07/angularjs-authentication-with-cookies-vs-token/&quot;&gt;this other post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2&gt;1. Add the required dependencies&lt;/h2&gt;
+
+&lt;p&gt;The first thing you&amp;#39;ll need to do is add the required dependencies. If you don&amp;#39;t have an Ionic project yet, you can just create one using the &lt;code&gt;ionic&lt;/code&gt; command:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash language-bash&quot; data-lang=&quot;bash&quot;&gt;ionic start auth0-ionic-app tabs
+ionic platform add ios
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;1.1 Add Auth0 dependencies&lt;/h3&gt;
+
+&lt;p&gt;Add the Auth0 dependencies to your &lt;code&gt;bower.json&lt;/code&gt; file. Save the file and run &lt;code&gt;bower install&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;json language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;dependencies&amp;quot;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;quot;auth0-angular&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;2.2.*&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;,&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Add a reference to the Auth0 JS files from your &lt;code&gt;index.html&lt;/code&gt; file:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Auth0 Lock (Login Widget) --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;lib/auth0-widget.js/build/auth0-widget.js&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ionic/angularjs js --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;lib/ionic/js/ionic.bundle.js&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Auth0 Angular module --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;lib/auth0-angular/build/auth0-angular.js&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;1.2 Add the InAppBrowser plugin&lt;/h3&gt;
+
+&lt;p&gt;Auth0 uses the &lt;code&gt;InAppBrowser&lt;/code&gt; plugin from Cordova to display the Login Window from each of the different Identity Providers. To install it, run the following command:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash language-bash&quot; data-lang=&quot;bash&quot;&gt;ionic plugin add org.apache.cordova.inappbrowser
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Then add this configuration to your &lt;code&gt;config.xml&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;xml language-xml&quot; data-lang=&quot;xml&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;feature&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;InAppBrowser&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;param&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;ios-package&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;CDVInAppBrowser&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;param&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;android-package&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;org.apache.cordova.InAppBrowser&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/feature&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;2. Time to code!&lt;/h2&gt;
+
+&lt;p&gt;Now the fun starts. Let&amp;#39;s integrate Auth0 into our Ionic code.&lt;/p&gt;
+
+&lt;h3&gt;2.1 Add the Auth0 module as a dependency and configure it&lt;/h3&gt;
+
+&lt;p&gt;Add the dependency for the &lt;code&gt;auth0&lt;/code&gt; module and inject the &lt;code&gt;authProvider&lt;/code&gt; to configure it:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;js language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;angular&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;starter&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;ionic&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s1&quot;&gt;&amp;#39;starter.controllers&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s1&quot;&gt;&amp;#39;starter.services&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s1&quot;&gt;&amp;#39;auth0&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$stateProvider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$urlRouterProvider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;authProvider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;authProvider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;domain&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;{your domain in Auth0}.auth0.com&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;clientID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;{your client id in Auth0}&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;callbackURL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;loginState&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;login&amp;#39;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;auth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// Hook auth0-angular to all the events it needs to listen to&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;auth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;hookEvents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The &lt;code&gt;init&lt;/code&gt; method in &lt;code&gt;authProvider&lt;/code&gt; needs Auth0 account data such as the &lt;code&gt;domain&lt;/code&gt; and the app registration identifier (the &lt;code&gt;clientId&lt;/code&gt;). This ensures your Ionic app connects to the right Auth0 instance: yours!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You don&amp;#39;t have an Auth0 account yet? It&amp;#39;s really easy. You&amp;#39;ll learn how to create one in steps below.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;2.2 Configure the routes in the app&lt;/h3&gt;
+
+&lt;p&gt;You will add a new state called &lt;code&gt;login&lt;/code&gt; which will actually get displayed before the user can access the main pages of the application:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;js language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$stateProvider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;$stateProvider&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// This is the state where you&amp;#39;ll show the login&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;login&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;/login&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;templateUrl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;templates/login.html&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;controller&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;LoginCtrl&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Your app states&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;tab&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/tab&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;kr&quot;&gt;abstract&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;templateUrl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;templates/tabs.html&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;// This state requires users to be logged in&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// If they&amp;#39;re not they&amp;#39;ll be redirected to the login state&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;requiresLogin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Notice the &lt;code&gt;requiresLogin&lt;/code&gt; added to the &lt;code&gt;tabs&lt;/code&gt; state.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;2.3 Add code for the Login state&lt;/h3&gt;
+
+&lt;p&gt;Now, it&amp;#39;s just time to code the Login state!&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;js language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;controller&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;LoginCtrl&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$scope&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;auth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;auth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;signin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// This is a must for mobile projects&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;popup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Make the widget non closeable&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;standalone&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// This asks for the refresh token&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// So that the user never has to log in again&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;offline_mode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;device&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Phone&amp;#39;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Login was successful&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;$state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;go&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;tab.dash&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Oops something went wrong during login:&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;There was an error logging in&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html language-html&quot; data-lang=&quot;html&quot;&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;ion&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;-view&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;#39;Login&amp;#39;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;ion&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;-content&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- The content of the page --&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- The widget is created by Auth0. We don&amp;#39;t have to add anything here --&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt;/ion-content&amp;gt;
+  &lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt;/ion-view&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The &lt;code&gt;auth.signin&lt;/code&gt; method is called as soon as the controller is created. This will result in the &lt;a href=&quot;https://github.com/auth0/widget&quot;&gt;Auth0 Lock&lt;/a&gt; being displayed. The &lt;code&gt;Auth0 Lock&lt;/code&gt; is a UI widget that will let your users choose how they want to authenticate to your Ionic app. The &lt;code&gt;Auth0 Lock&lt;/code&gt; comes pre-configured with all usual controls for various ways of authetnication: Social Connections, Enterprise connections or regular Username and passwords. It&amp;#39;s pretty on its own, but it be fully customized to match your UX.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Auth0 supports &lt;a href=&quot;https://docs.auth0.com/identityproviders&quot;&gt;a large number of identity providers&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Notice the various parameters in the &lt;em&gt;Auth0 Lock&lt;/em&gt;. In particular, check the &lt;code&gt;offline_mode&lt;/code&gt; set to true. This setting is very important for mobile apps since it&amp;#39;ll make Auth0 return a &lt;code&gt;refresh_token&lt;/code&gt; to your app. For more information about Refresh Tokens, you can &lt;a href=&quot;http://docs.auth0.com/refresh-token&quot;&gt;click here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;2.4 Call the secured API&lt;/h3&gt;
+
+&lt;p&gt;With the token in the app, you can now call a secured API safely. Each call you make to an API endpoint should attach the token (JWT) to the &lt;code&gt;Authorization&lt;/code&gt; header. To simplify your code, &lt;code&gt;auth0-angular&lt;/code&gt; ships with an &lt;code&gt;$http&lt;/code&gt; interceptor that will automatically inject the token on each call:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;js language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// app.js&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$httpProvider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// ...&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;$httpProvider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;interceptors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;authInterceptor&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// ...&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;All that&amp;#39;s left now is validating the sent token in your server hosting the API. &lt;a href=&quot;https://docs.auth0.com/#!/hybrid/ionic&quot;&gt;Tailored tutorials&lt;/a&gt; for all popular stacks and platforms will teach you how to do that. Auth0 OSS SDKs make it really easy.&lt;/p&gt;
+
+&lt;h3&gt;2.5 Display user information&lt;/h3&gt;
+
+&lt;p&gt;Once the user is logged in, you can access the user information via &lt;code&gt;auth.profile&lt;/code&gt;. &lt;a href=&quot;https://docs.auth0.com/user-profile&quot;&gt;Auth0 ensures that common properties are all sent in the same way&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&amp;gt;&lt;/span&gt;Hi {{auth.profile.nickname}}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;3. Configure Auth0&lt;/h2&gt;
+
+&lt;p&gt;Now it&amp;#39;s time to configure Auth0. First, we need to register an &lt;code&gt;Application&lt;/code&gt;. This represents the Ionic app and the API. Then, you can choose which Identity Providers the user will be enabled for the app. &lt;/p&gt;
+
+&lt;h3&gt;3.1 Create the Application in Auth0&lt;/h3&gt;
+
+&lt;p&gt;Creating the Application is super easy. Once created, check Settings, and copy the &lt;code&gt;clientId&lt;/code&gt; and &lt;code&gt;domain&lt;/code&gt;. These are used in Step 2.1.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cloudup.com/iYZPXy0c303+&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Note&lt;/em&gt;: If you want to try this out with &lt;code&gt;ionic serve&lt;/code&gt; as well, you&amp;#39;ll have to put &lt;code&gt;localhost:8100&lt;/code&gt; as one of the &lt;code&gt;callbackURLs&lt;/code&gt; on the Settings of your application.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;3.2 Choose the Identity providers&lt;/h3&gt;
+
+&lt;p&gt;Now, you can choose what Identity Providers (called &lt;em&gt;Connections&lt;/em&gt; in Auth0) the user will use to log in. We have tons of them!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cloudup.com/iVIa3IZg_6o+&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Show time!&lt;/h2&gt;
+
+&lt;p&gt;You&amp;#39;ve completed implementing Authentication in your app. Let&amp;#39;s see how it runs!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cloudup.com/iMmARAM4VJZ+&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Final thoughts&lt;/h2&gt;
+
+&lt;p&gt;You&amp;#39;ve added authentication with Social Providers, Enterprise Providers and regular username &amp;amp; password to our Ionic app in just a few simple steps.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/auth0/auth0-ionic/tree/master/examples/refresh-token-sample&quot;&gt;You can download this exact example from Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, please contact me at &lt;a href=&quot;mailto:gonto@auth0.com&quot;&gt;gonto@auth0.com&lt;/a&gt; :).&lt;/p&gt;
+
+&lt;p&gt;Happy hacking!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://twitter.com/mgonto&quot;&gt;@mgonto&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 Aug 2014 13:00:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/authentication-in-ionic/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/authentication-in-ionic/</guid>
+      </item>
+    
+      <item>
+        <title>Built with Ionic: Throwback</title>
+        <description>&lt;p&gt;&lt;img class=&quot;showcase-image&quot; src=&quot;/img/blog/throwback-header.jpg&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.throwbacknow.com/#!/&quot;&gt;Throwback&lt;/a&gt;, a mobile application that lets you see exactly what you did in history, was developed by &lt;a href=&quot;http://www.twitter.com/pkayfire&quot;&gt;Peter Kim&lt;/a&gt; and &lt;a href=&quot;http://www.twitter.com/pkayfire&quot;&gt;Kevin Chen&lt;/a&gt;, seniors majoring in Computer Science at &lt;a href=&quot;http://www.berkeley.edu/index.html&quot;&gt;UC Berkeley&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Here’s how it works: A user connects with Throwback via Facebook on a given day, and Throwback reveals what the user did in history on that particular calendar day. &lt;/p&gt;
+
+&lt;p&gt;For example, if you visit on August 11, 2014, you’ll see all the posts you wrote and photos you uploaded or were tagged in on August 11, 2013; August 11, 2012; and so on. &lt;/p&gt;
+
+&lt;p&gt;“Throwback’s target audience is anyone who wants to see how they’ve changed over the years and is into nostalgia,” says Kim. “We’ve found that we have users of all ages using the application, but the concentration seems to be centered around high school and college students.”&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Kim and Chen heard about Ionic when they were looking for ways to convert their AngularJS application into a mobile application.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ionicframework.com/img/blog/throwback-app-preview.png&quot;&gt;&lt;img class=&quot;body-image&quot; src=&quot;/img/blog/throwback-app-preview.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;“We initially built the first prototype for Throwback as a web application, since it would be easy to iterate quickly and get feedback from interested users,” says Chen. “It turns out that users prefer a mobile application that they can check conveniently anywhere to a web application. This eventually led us to Ionic! The fact that Ionic is Angular-friendly sold us immediately.”&lt;/p&gt;
+
+&lt;p&gt;Kim and Chen describe Ionic as the glue that helped transform their web application into a mobile application. &lt;/p&gt;
+
+&lt;p&gt;“The command line interface was simple to use, and we enjoyed the simplicity of building into Android/iOS projects,” says Kim. “Furthermore, Ionic gave us convenient features, such as platform detection and UI elements. We incorporated the pull-to-refresh, infinite scroll, ionicPopup, and ionicLoading, as well as the basic UI elements (footer, header, etc.) into our application. Ionic made it really easy to create a slick, responsive UI interface for Throwback.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ionic was the first and only mobile framework that Kim and Chen used.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“When we were researching mobile frameworks, Ionic stood out to us because of its quality and Angular friendliness,” says Kim. “The team at Drifty seemed innovative and also passionate about the project. Team members regularly answer questions on the forum; all the questions we have asked have been answered in a timely manner. Moreover, the UI components to Ionic made it look very similar to a native application--something that other frameworks can’t quite nail as precisely as Ionic.”&lt;/p&gt;
+
+&lt;p&gt;Chen and Kim chose to build an HTML5 application because it was the easiest and fastest way to build a mobile application for both iOS and Android. Rather than maintaining two code bases and learning two languages or frameworks, they were able to focus on just one and then tweak the code base to adjust for each specific platform. &lt;/p&gt;
+
+&lt;p&gt;“Ionic made this tweaking incredibly easy and minor,” says Chen. “Peter and I both come from native development backgrounds, primarily Objective-C, and we were just tired of building applications twice, essentially, to support two platforms. HTML5 made it really easy to support multiple platforms at once, and Ionic made our application look and feel native.”&lt;/p&gt;
+
+&lt;p&gt;Throwback is available in the &lt;a href=&quot;http://bit.ly/1otMG3E&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;http://bit.ly/1pUjyQg&quot;&gt;Android&lt;/a&gt; stores. &lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 Aug 2014 12:30:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/built-with-ionic-throwback/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/built-with-ionic-throwback/</guid>
+      </item>
+    
+      <item>
+        <title>Built with Ionic: HabitRPG</title>
+        <description>&lt;p&gt;&lt;img class=&quot;showcase-image&quot; src=&quot;/img/blog/habitrpg-header.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://habitrpg.com/static/front&quot;&gt;HabitRPG&lt;/a&gt; is a fantasy role-playing game for improving real-life habits. When users achieve their goals, such as exercising for a certain number of hours a day or writing a specific number of words a day, they gain experience and “gold.” Failed goals (smoking, eating junk food, etc.) result in lost hit points. It’s for anyone who can use a motivation boost for self-improvement.&lt;/p&gt;
+
+&lt;p&gt;The website is currently the main property and includes additional features, like boss-battles, quests, challenges, guilds, and pets. The mobile app has, until recently, served as a slimmed-down companion to the website, but CTO Tyler Renelle says, “Now that we’re on Ionic, this will change fast.” The HabitRPG website, mobile app, and Chrome extension are all &lt;a href=&quot;https://github.com/habitrpg/&quot;&gt;open source&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The original HabitRPG app was built using PhoneGap, AngularJS, and Topcoat. “Topcoat was a decent leg up from a blank slate, mostly bare bones CSS for a mobile-ish feel, but it wasn’t enough,” says Renelle. “After poor reviews on performance and design, we decided it was time for a facelift and new framework.”&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;When it was time to re-do the app, Renelle says Ratchet and Ionic were the main contenders. Based on recommendations, research, and the insistence of their top contributor, &lt;a href=&quot;https://github.com/paglias&quot;&gt;paglias&lt;/a&gt;, the HabitRPG team chose Ionic. “Ionic had many more features than Ratchet, was a tad more performant in my basic &lt;code&gt;cordova run android --device&lt;/code&gt; experiments, and had much more steam in meetups and online discussions,” says Renelle. “This already was enough for our decision. Then we found out Ionic is on AngularJS. As an AngularJS shop ourselves, the rest is history.”&lt;/p&gt;
+
+&lt;p&gt;The HabitRPG team chose to build an HTML5 app for two reasons: cross-platform builds and the ability to use JavaScript.&lt;/p&gt;
+
+&lt;p&gt;“We wrote our app once, and it’s available for iOS and Android,” says Renelle. “The small performance and native-feel penalty is worth the time and resources saved, especially as our small operation has a limited supply of both.”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ionicframework.com/img/blog/habitrpg-app-preview.png&quot;&gt;&lt;img class=&quot;body-image&quot; src=&quot;/img/blog/habitrpg-app-preview.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Plus, HabitRPG is a “full-stack JavaScript shop,” using AngularJS, Node.js, MongoDB, and Chrome Extension. “PhoneGap fit our stack like a glove,” says Renelle. “We have a ‘common lib’ housing all our algorithms, helper functions, services/directives, etc.--a package included on all properties and comprising the majority of each property’s codebase. Fix a web bug, and we get that fix on mobile for free. It saves us tremendous amounts of time. Furthermore, any of our developers can jump to any of the other properties with ease--they’re all JavaScript, and AngularJS to boot.”&lt;/p&gt;
+
+&lt;p&gt;Renelle explains that using Ionic allowed his team to replace awkward custom solutions with much cleaner code. “Our app was basically a combo of Ionic’s side menu and tabs starters--very basic,” says Renelle. “However, our previous framework didn’t support much of this by way of JS components or CSS, so we home-grew the majority of it. Ionic allowed us to gut most of our code. I went in with a sledge hammer, replacing rickety custom solutions with Ionic’s side menus, tabs, performant scrolling, navigation history, and more. Swipe-refresher was a pleasant surprise, so we put that right in.” &lt;/p&gt;
+
+&lt;p&gt;The HabitRPG team plans to incorporate more Ionic components over time. “We had Github tickets planning contending solutions for modals, item sorting, and infinite-scroll,” says Renelle. “These would have added more dependencies and more home-grown clunkiness. Needless to say, I’m excited to find these supported in Ionic proper. Our app has a much brighter future, thanks to Ionic.”&lt;/p&gt;
+
+&lt;p&gt;Renelle says he believes Ionic is the second most important thing to happen to the hybrid app dev space (the first being PhoneGap). “Ionic will grow an impressive showcase, proving to companies that hybrid is a viable option,” he says.&lt;/p&gt;
+
+&lt;p&gt;Find HabitRPG was developed by &lt;a href=&quot;http://about.me/lefnire&quot;&gt;Tyler Renelle&lt;/a&gt;. You can find it on the &lt;a href=&quot;https://itunes.apple.com/us/app/habitrpg/id689569235?mt=8&quot;&gt;iOS App Store&lt;/a&gt; or the &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.ocdevel.habitrpg&quot;&gt;Android Play Store&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 22 Aug 2014 10:00:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/case-study-habitrpg/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/case-study-habitrpg/</guid>
+      </item>
+    
+      <item>
+        <title>Faster Hybrid Dev with Ionic Box</title>
+        <description>&lt;p&gt;&lt;img class=&quot;showcase-image&quot; src=&quot;/img/blog/ionicbox-header.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;We know that one of the biggest pain points in hybrid development with Ionic, Cordova, and Android is just getting everything installed and configured on your machine. It hurts us to watch new developers fumble with the dependencies required for doing mobile development.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s especially bad for Windows users that often have very diverse installations and inconsistent access to a Unix-style command line where tools like Node.js (used by Ionic and Cordova) thrive.&lt;/p&gt;
+
+&lt;p&gt;So today we are relieved to announce we&amp;#39;ve created a solution to the nightmare that is dependency installation: &lt;a href=&quot;http://github.com/driftyco/ionic-box&quot;&gt;Ionic Box&lt;/a&gt;, an all-in-one project for setting up hybrid development environments more quickly and easily.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;The first version of Ionic Box uses Vagrant to set up a virtual machine for you to develop through. If you aren&amp;#39;t familiar with &lt;a href=&quot;https://www.vagrantup.com/&quot;&gt;Vagrant&lt;/a&gt;, it&amp;#39;s a tool to create reusable development environments through the use of virtual machines, most commonly through &lt;a href=&quot;https://www.virtualbox.org&quot;&gt;VirtualBox&lt;/a&gt;. That means you can configure a Virtual Machine complete with all the tools you need to start building hybrid or native-only apps with Android and Cordova.&lt;/p&gt;
+
+&lt;p&gt;To use this project, download the &lt;a href=&quot;https://github.com/driftyco/ionic-box&quot;&gt;most recent release&lt;/a&gt; of the code, unzip it, and then open up your command prompt or terminal and &lt;code&gt;cd&lt;/code&gt; into the extracted folder.&lt;/p&gt;
+
+&lt;p&gt;Assuming you have Vagrant and VirtualBox installed, all you need to do us run &lt;code&gt;vagrant up&lt;/code&gt; and the machine will download and configure itself. It takes a bit of time at first, but it&amp;#39;s all automated and only needs to be done once.&lt;/p&gt;
+
+&lt;p&gt;Once the image is built and running, you can run &lt;code&gt;vagrant ssh&lt;/code&gt; to connect to the image where you have a full development environment ready to go, including support for testing on a USB connected Android device! Configure shared directories to share code from your host computer to the vagrant guest, and it&amp;#39;ll feel just like home.&lt;/p&gt;
+
+&lt;p&gt;So give this project a try, and let us know what you think! This is the first release and we will be evolving this over time as we learn how people use it in the wild.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/driftyco/ionic-box&quot;&gt;Ionic Box&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Aug 2014 13:00:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/ionic-vagrant-android/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/ionic-vagrant-android/</guid>
+      </item>
+    
+      <item>
+        <title>Collection Repeat</title>
+        <description>&lt;p&gt;&lt;img class=&quot;showcase-image&quot; src=&quot;/img/blog/collectionrepeat-header.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;When developing apps, it’s fair to expect that a large list of data will be needed. Until now, if you were developing a hybrid app and wanted to show the user a list of 100+ items, that was just too bad. The phone’s browser would laugh at you as you scrolled through your list at ten frames per second. &lt;/p&gt;
+
+&lt;p&gt;After trying to fix this with every trick you knew, your frustration would slowly mount until you sighed and acknowledged that the web was just too limited for realistic apps. Then you would be forced to learn Objective-C or Java and start building a native app.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, developers no longer need to face such dramatic scenarios, because Ionic has a solution.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h3&gt;How Does Native Do It, Anyway?&lt;/h3&gt;
+
+&lt;p&gt;Native apps render huge lists quite seamlessly. A contacts app, for example, can display thousands of items with no problem at all. Achieving this is actually very simple: Native APIs are only rendering the specific items that should be currently visible, relative to the user&amp;#39;s scroll position. &lt;/p&gt;
+
+&lt;p&gt;This means if 10 items can fit in the screen’s viewport, and the user has scrolled halfway down a list of 100 items, only items 50-60 should be rendered.&lt;/p&gt;
+
+&lt;p&gt;This &lt;em&gt;is&lt;/em&gt; possible to do with web technologies, we just have to game the system a little bit...&lt;/p&gt;
+
+&lt;h3&gt;The Basic Concept&lt;/h3&gt;
+
+&lt;p&gt;We know our end goal: Limit the rendering of items in a large list. So how do we get there?&lt;/p&gt;
+
+&lt;p&gt;When figuring this out for Ionic, we were heavily inspired by iOS’s UICollectionView. In our implementation, there are three main components:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;The &lt;code&gt;collection-repeat&lt;/code&gt; directive: The developer adds this directive to the element he or she wants to repeat, supplies an array of data, and gives the size (width and height) of each element in that array using a simple expression.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The &lt;code&gt;CollectionRepeatManager&lt;/code&gt;: This takes the size of the scroll view containing the list, the current scroll value, and the size of each item to figure out exactly which items need to be rendered. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The &lt;code&gt;CollectionDataSource&lt;/code&gt;: The Manager will ask the DataSource for an item at a certain index, and the DataSource will give the Manager a complete DOM element representing that item.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;The Secret Sauce&lt;/h3&gt;
+
+&lt;p&gt;The biggest piece of the puzzle is how to performantly render new elements as the user scrolls through the list.&lt;/p&gt;
+
+&lt;p&gt;While scrolling down, elements that were just at the top of the screen are no longer visible. What should be done with these elements? Our first thought was to remove these from the DOM.&lt;/p&gt;
+
+&lt;div style=&quot;float: right; margin-right: -160px&quot;&gt;
+  
+ &lt;div class=&quot;phone-case&quot;&gt;
+  &lt;p data-height=&quot;568&quot; data-theme-id=&quot;3572&quot; data-slug-hash=&quot;mFygh&quot; data-default-tab=&quot;result&quot; class='codepen'&gt;See the Pen by &lt;a href='http://codepen.io/ionic/pen/mFygh'&gt;Ionic&lt;/a&gt; (&lt;a href='http://codepen.io/ionic'&gt;@ionic&lt;/a&gt;) on &lt;a href='http://codepen.io'&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+  &lt;script async src=&quot;//codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+ &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;The solution we found to be the most performant, though, is to hide these no longer visible elements and mark them as “available for rendering.” If we were to remove no-longer-visible elements, we would have to append them to the DOM again later, as the user scrolled down. And appending new elements to the DOM while the user scrolls causes noticeable jankiness.&lt;/p&gt;
+
+&lt;p&gt;Later, the Manager asks the DataSource, “Give me an element matching data at index 16, so I can render it.” The DataSource then finds an element that’s already in the DOM and marked as available. It assigns item 16’s data to that element’s scope and gives the element to the Manager. &lt;/p&gt;
+
+&lt;p&gt;The Manager then transforms the element into its proper position in the view, using the width and height given by the developer at the start to calculate its position. We use Javascript to transform the elements into their proper positions--again, so that we don’t have to worry about ordering elements in the DOM as the user scrolls. The actual order of elements in the list doesn’t matter: They are transformed into the proper position to look like they’re in the proper order, and the end user can’t tell the difference. &lt;/p&gt;
+
+&lt;h3&gt;Problem Solved. Now What?&lt;/h3&gt;
+
+&lt;p&gt;What does this mean for developers? It means we are no longer limited by the weaknesses of the DOM and the mobile webview. It means we can finally have as much data as needed, keep scrolling smooth and performant, &lt;em&gt;and&lt;/em&gt; keep our users happy, all at the same time.&lt;/p&gt;
+
+&lt;p&gt;Crazy, huh?&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;http://ionicframework.com/docs/api/directive/collectionRepeat&quot;&gt;Collection Repeat’s documentation&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 Aug 2014 10:00:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/collection-repeat/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/collection-repeat/</guid>
+      </item>
+    
+      <item>
+        <title>Popover Support Lands in Ionic</title>
+        <description>&lt;p&gt;&lt;img class=&quot;showcase-image&quot; src=&quot;/img/blog/popover-header.gif&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;A commonly requested feature from the community has been the Popover, which we’re happy to now have included within &lt;a href=&quot;http://forum.ionicframework.com/t/v1-0-0-beta-11-indium-iguana-released/7798&quot;&gt;Ionic v1.0.0-beta.11&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A popover is a view that floats above an app’s content, except it stays attached to the element that opens up the popover. The popover content is usually emitted from a button, an action, a pointer, or another control, which is similar to how Ionic’s modals or actionsheets work. It’s a common interaction seen on iPad apps and other aliases, including drop downs, menus, chips, etc.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Popovers provide an easy way to present or gather information from the user and are commonly used to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Show more info about the current view&lt;/li&gt;
+&lt;li&gt;Select a commonly used tool or configuration within a list&lt;/li&gt;
+&lt;li&gt;Present a list of actions to perform inside one of your views&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/blog/popover-preview.gif&quot;&gt;&lt;img class=&quot;body-image&quot; src=&quot;/img/blog/popover-preview.gif&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Like with all of Ionic’s other components, its goal is to give the developer full control of creating a popover, and continue to take advantage of all the niceties of AngularJS, such as template files, controllers, scoped variables, etc.&lt;/p&gt;
+
+&lt;div style=&quot;float: right; margin-right: -160px&quot;&gt;
+  
+ &lt;div class=&quot;phone-case&quot;&gt;
+  &lt;p data-height=&quot;568&quot; data-theme-id=&quot;3572&quot; data-slug-hash=&quot;GpCst&quot; data-default-tab=&quot;result&quot; class='codepen'&gt;See the Pen by &lt;a href='http://codepen.io/ionic/pen/GpCst'&gt;Ionic&lt;/a&gt; (&lt;a href='http://codepen.io/ionic'&gt;@ionic&lt;/a&gt;) on &lt;a href='http://codepen.io'&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+  &lt;script async src=&quot;//codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+ &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;The popover itself is another view, not simply a preformatted list. This means anything you can do within a standard view, you can do within a popover. Scrollable areas, header bars, header buttons, content areas, form inputs, etc., can all be used no differently that a standard view. Check out the &lt;a href=&quot;/docs/api/service/$ionicPopover/&quot;&gt;popover documentation&lt;/a&gt; for more.&lt;/p&gt;
+
+&lt;p&gt;By default, Ionic’s popover comes in three styles: Base, iOS and Android. The base style, as you guessed it, is the base style that each platform overrides. Each of the platforms have subtle differences, but those differences ensure a consistent interface for the platform from which it’s being run. (Setting the correct platform style is all a part of Ionic’s initializing and isn’t something that needs to be manually set.)&lt;/p&gt;
+
+&lt;p&gt;Please give it a shot, and as always, please let us know what we can do to improve Ionic to help make your development easier. Thanks!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Aug 2014 13:00:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/popover-support-landed/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/popover-support-landed/</guid>
+      </item>
+    
+      <item>
+        <title>Built with Ionic: Crafted Here</title>
+        <description>&lt;p&gt;&lt;img class=&quot;showcase-image&quot; src=&quot;/img/blog/craftedhere-header.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Denver-based &lt;a href=&quot;http://www.craft-boom.com&quot;&gt;Craft Boom&lt;/a&gt; makes products and applications dedicated to the world of craft beer, spirits, coffee, cannabis, and wine. The company’s “craft map app”, Crafted Here, helps users locate independent breweries, distilleries, coffee shops, dispensaries, and wineries near them and learn about when they’re open, where they’re located, and other details. Founder and CEO Chase Doelling said his development team chose to use Ionic because they knew the framework would allow them to develop their app quickly and easily.&lt;/p&gt;
+
+&lt;p&gt;“We had heard about Ionic from friends but also found it via social media channels (e.g., Twitter),” says Doelling. “Ionic helped with the speed of development. If we had to do everything from scratch, it would have doubled dev time.”&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ionicframework.com/img/blog/craftedhere-app-preview.png&quot;&gt;&lt;img class=&quot;body-image&quot; src=&quot;/img/blog/craftedhere-app-preview.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Crafted Here team chose to build an HTML5 app, instead of going pure native, due to cost. “Also, it allowed us the flexibility to build a great site once,” says Doelling. “Most important were the UI elements and pre-made layouts. Integrating elements not part of the framework, like the map, was easy.”&lt;/p&gt;
+
+&lt;p&gt;Crafted Here is geared towards individuals who want to explore what makes their own cities, and the ones they visit, appealing, and the app makes it possible to curate data from five selected industries: beer brewing; distilling; coffee roasting; cannabis production and dispensing; and winemaking.&lt;/p&gt;
+
+&lt;p&gt;“The business model and application came from the National Day of Civic Hacking in 2013, when our team won Best in Show, Best Tourism App, and Crowd Favorite,” says Doelling. “Since then, we have been iterating and improving the application and algorithms to bring our users the best craft goods served up locally.”&lt;/p&gt;
+
+&lt;p&gt;The app is available in Android&amp;#39;s &lt;a href=&quot;https://play.google.com/store/apps/details?id=us.craftedhere&quot;&gt;Google Play Store&lt;/a&gt; and the &lt;a href=&quot;https://itunes.apple.com/us/app/craftedhere/id859703795?ls=1&amp;amp;mt=8&quot;&gt;iOS App Store&lt;/a&gt;. Definitely check it out!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 Aug 2014 04:00:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/case-study-crafted-here/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/case-study-crafted-here/</guid>
+      </item>
+    
+      <item>
+        <title>Build great hybrid apps with the Ionic Creator</title>
+        <description>&lt;p&gt;&lt;img class=&quot;showcase-image&quot; src=&quot;http://ionicframework.com.s3.amazonaws.com/blog/creator/creator-header.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;By now, the cat&amp;#39;s out of the bag on &lt;a href=&quot;/creator&quot;&gt;Ionic Creator&lt;/a&gt;, our upcoming drag-and-drop development tool for building beautiful hybrid apps with Ionic and AngularJS.&lt;/p&gt;
+
+&lt;p&gt;For those that have been following &lt;a href=&quot;http://drifty.com/&quot;&gt;our company&lt;/a&gt;&amp;#39;s history over the last few years, you know that we have a passion for making development simpler and faster through visual dev tools. Our previous two products, Codiqa and Jetstrap, have served over 250,000 developers all around the world, and we are really proud of the impact they&amp;#39;ve had on the development world.&lt;/p&gt;
+
+&lt;p&gt;We built the Ionic Framework because we weren&amp;#39;t happy with the underlying frameworks back in 2013. We felt there was a huge opportunity to build better foundational technology for the next generation of mobile app development, and that became Ionic.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Now, things have come full circle, and Ionic is mature enough and popular enough (over &lt;strong&gt;80,000&lt;/strong&gt; new apps created just in 2014!) that it makes sense to build tools to help make Ionic easier and faster to develop with...and maybe even a bit more fun. :)&lt;/p&gt;
+
+&lt;p&gt;Today, I am happy to formally announce the &lt;a href=&quot;/creator&quot;&gt;Ionic Creator&lt;/a&gt; to our community. Let&amp;#39;s take a look!&lt;/p&gt;
+
+&lt;h3&gt;Everything you need&lt;/h3&gt;
+
+&lt;p&gt;Creator comes with practically all of the Ionic UI elements we offer in the &lt;a href=&quot;/docs/components&quot;&gt;framework&lt;/a&gt;, including support for tabs, side menus, slide boxes, modals, and forms. And adding them to your app is as simple as dragging them right where you want them.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;body-image&quot; src=&quot;http://ionicframework.com.s3.amazonaws.com/blog/creator/ui-components.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Pages can be linked to create compelling navigation, and the elements can be easily moved and deleted.&lt;/p&gt;
+
+&lt;h3&gt;Ready-made templates&lt;/h3&gt;
+
+&lt;p&gt;We want to make it easy to build pages based on a common design, so you don&amp;#39;t have to start from scratch each time. We have a set of quality templates for building login and signup pages; tabbed interfaces; Google Maps pages; and more.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;body-image&quot; src=&quot;http://ionicframework.com.s3.amazonaws.com/blog/creator/page-templates.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;We will be adding a ton more templates in the future, with the ability to create and submit your own!&lt;/p&gt;
+
+&lt;h3&gt;Export a working app&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class=&quot;body-image&quot; src=&quot;http://ionicframework.com.s3.amazonaws.com/blog/creator/options-preview.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;With just one click, you can download a ready-to-go Cordova project with your new UI. You can even start a new project from the &lt;a href=&quot;https://www.npmjs.org/package/ionic&quot;&gt;Ionic CLI tool&lt;/a&gt;, using your Creator app as a starting point!&lt;/p&gt;
+
+&lt;p&gt;In the future, we will be adding the ability to build ready-to-go native iOS, Android, and Windows Phone binaries right from Creator.&lt;/p&gt;
+
+&lt;h3&gt;Test right on the phone&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class=&quot;body-image&quot; src=&quot;http://ionicframework.com.s3.amazonaws.com/blog/creator/view-app.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;With the upcoming Ionic View app, you&amp;#39;ll be able to rapidly test your Creator apps on your device and share them with anyone around the world. Scan or enter a code, and you&amp;#39;ll be running a real app in seconds. Best of all, your coworkers and clients can test it, too!&lt;/p&gt;
+
+&lt;h3&gt;Beautiful code&lt;/h3&gt;
+
+&lt;p&gt;The dream of the Ionic Creator is to make it easier to build, test, and share ideas for your next great app and get started on development faster. It&amp;#39;s not a replacement for development, but it accelerates your development.&lt;/p&gt;
+
+&lt;p&gt;To make this dream a reality, we knew the Creator would have to export code that was indistinguishable from hand-written code and maybe even better. Our years of experience building drag-and-drop tools has given us a lot of experience in clean code generation, and Creator has benefited immensely from this.&lt;/p&gt;
+
+&lt;p&gt;All Creator apps export clean Ionic and AngularJS code, complete with routing and some initial configuration and controllers set up. It&amp;#39;s ready for you to jump right in and add your magic sauce.&lt;/p&gt;
+
+&lt;h3&gt;Totally free!&lt;/h3&gt;
+
+&lt;p&gt;We want to help more web and mobile developers become hybrid developers with Ionic. Having great tools like Creator will lower the bar for getting started with mobile development in general, and we love that!&lt;/p&gt;
+
+&lt;p&gt;To achieve this dream, we have decided to make the Ionic Creator 100% free. While we might charge in the future for heavy usage, we will always have a free version of Creator available, so you can quickly build Ionic and Cordova apps.&lt;/p&gt;
+
+&lt;h3&gt;Be the first in line!&lt;/h3&gt;
+
+&lt;p&gt;We aren&amp;#39;t quite ready to release the Creator, but we hope to have a beta out by the end of August/early September.&lt;/p&gt;
+
+&lt;p&gt;To be the first to try Creator, make sure to &lt;a href=&quot;/creator&quot;&gt;sign up&lt;/a&gt; on the Creator email list, and watch your inbox for updates.&lt;/p&gt;
+
+&lt;p&gt;In the last two weeks, we&amp;#39;ve had &lt;strong&gt;10,000&lt;/strong&gt; people sign up for the beta, and it&amp;#39;s clear people are excited for Creator. We are so excited and anxious to show you what we&amp;#39;ve been working on.&lt;/p&gt;
+
+&lt;p&gt;Thanks, and stay tuned!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 29 Jul 2014 12:00:00 +0200</pubDate>
+        <link>http://ionicframework.com/blog/ionic-creator/</link>
+        <guid isPermaLink="true">http://ionicframework.com/blog/ionic-creator/</guid>
+      </item>
+    
+  </channel>
+</rss>
